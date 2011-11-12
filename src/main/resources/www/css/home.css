@@ -1,0 +1,56 @@
+
+
+body#home {
+  background:#333;
+  color:#eee;
+}
+
+#home #container {
+  width:100%;
+  margin:1em;
+}
+
+#home h1 {
+  font-size: 200px;
+  line-height:.3em;
+}
+
+#home #what {
+  float:left;
+}
+
+#home h1 span {
+  color:#FF3089;
+}
+
+#home #connect {
+  float:left;
+  clear:left;
+}
+
+.btn.disabled, .btn.disabled:hover {
+    background: #E9136F 918F8F;
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr='#918F8F', endColorstr='#616161');
+  background: -webkit-gradient(linear, left top,
+                               left bottom, from(#918F8F),
+                               to(#616161));
+  background: -moz-linear-gradient(top, #E918F8F, #616161);
+  border:1px solid #616161;
+  text-shadow:0 1px #333;
+}
+
+#connect a {
+  min-width: 170px;
+  min-height:1.5em;
+  display:block;/*inline-block*/
+
+}
+
+#connect a span {
+  background: url("/img/badge.png") no-repeat;
+  display:inline-block;
+  height:13px;
+  width:20px;
+  display:inline-block;
+}
